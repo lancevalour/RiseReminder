@@ -35,7 +35,9 @@ public class AddPlaceActivity extends ActionBarActivity {
 
 	List<RisePlace> placesList;
 
-	
+
+
+
 	ArrayList<RisePlace> selectedList;
 	ArrayList<String> selectedNameList;
 	ArrayList<String> selectedAddressList;
