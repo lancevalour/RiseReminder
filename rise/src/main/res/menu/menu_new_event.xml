@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.NewEventActivity" >
+
+    <item
+        android:id="@+id/menu_new_event_add"
+        android:icon="@drawable/ic_action_add"
+        android:title="@string/menu_toolbar_action_new_event"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_new_event_switch"
+        android:title=""
+        app:actionViewClass="android.widget.Switch"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yicheng.android.app.rise"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".activity.NavigationDrawerActivity" >
+            <intent-filter>
+                <action android:name="ACTIVITY_NAVIGATION_DRAWER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.NewEventActivity" >
+            <intent-filter>
+                <action android:name="ACTIVITY_NEW_EVENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.NewPlaceActivity" >
+            <intent-filter>
+                <action android:name="ACTIVITY_NEW_PLACE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity" >
+            <intent-filter>
+                <action android:name="ACTIVITY_LOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AddPlaceActivity" >
+            <intent-filter>
+                <action android:name="ACTIVITY_ADD_PLACE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".receiver.EventAlarmReceiver" >
+        </receiver>
+        <receiver android:name=".receiver.EventIntervalAlarmReceiver" >
+        </receiver>
+
+        <service android:name=".service.EventAlarmIntentService" >
+        </service>
+        <service android:name=".service.EventIntervalAlarmIntentService" >
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBqCTW8vDOmbbyNfqb4SbC-HQ7v576ORK8" />
+    </application>
+
+</manifest>

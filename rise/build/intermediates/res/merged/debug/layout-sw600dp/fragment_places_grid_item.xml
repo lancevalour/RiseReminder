@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_places_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_background_ripple"
+    android:clickable="true"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/fragment_places_place_name_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Title"
+        android:textColor="@color/color_subheader"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/fragment_places_place_address_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_places_place_name_textView"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="address"
+        android:textColor="@color/color_subheader"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fragment_places_place_label_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/fragment_places_place_address_textView"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text="W"
+        android:textColor="@color/theme_primary_dark"
+        android:textSize="14sp" />
+
+</RelativeLayout><!-- From: file:/C:/Users/ZhangY/AndroidStudioProjects/Rise/rise/src/main/res/layout-sw600dp/fragment_places_grid_item.xml -->

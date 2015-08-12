@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_new_place_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/activity_new_place_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_primary"
+        android:elevation="4dp"
+        android:theme="@style/ToolBarTheme"
+        app:popupTheme="@style/Theme.AppCompat.Light.NoActionBar" >
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/activity_new_place_find_place_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_new_place_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/layout_margin_left"
+        android:layout_marginRight="@dimen/layout_margin_right"
+        android:layout_marginTop="@dimen/layout_margin_top" >
+
+        <TextView
+            android:id="@+id/activity_new_place_place_find_place_textView"
+            style="@style/FontSubheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Place"
+            android:textSize="@dimen/subheader" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_new_place_place_find_place_textView"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/activity_new_place_place_picker_button"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_action_search_dark" />
+
+            <FrameLayout
+                android:id="@+id/activity_new_place_autocomplete_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/activity_new_place_place_picker_button" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/activity_new_place_autocomplete_textView"
+                    style="@style/FontBody"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/autocomplete_hint"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:textSize="@dimen/body" />
+
+                <ImageButton
+                    android:id="@+id/activity_new_place_autocomplete_clear_button"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/ic_action_remove" />
+            </FrameLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_new_place_find_place_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/layout_margin_left"
+        android:layout_marginRight="@dimen/layout_margin_right"
+        android:layout_marginTop="@dimen/layout_margin_top" >
+
+        <TextView
+            android:id="@+id/activity_new_place_place_label_textView"
+            style="@style/FontSubheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Label"
+            android:textSize="@dimen/subheader" />
+
+        <CheckBox
+            android:id="@+id/activity_new_place_place_label_work_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_new_place_place_label_textView"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Work" />
+
+        <CheckBox
+            android:id="@+id/activity_new_place_place_label_home_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_new_place_place_label_work_checkbox"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Home" />
+
+        <CheckBox
+            android:id="@+id/activity_new_place_place_label_play_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_new_place_place_label_home_checkbox"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Play" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/ZhangY/AndroidStudioProjects/Rise/rise/src/main/res/layout/activity_new_place.xml -->

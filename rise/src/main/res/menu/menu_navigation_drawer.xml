@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.NavigationDrawerActvity" >
+
+    <item
+        android:id="@+id/menu_navigation_drawer_settings"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/menu_toolbar_action_settings"
+        app:showAsAction="always"/>
+
+</menu>

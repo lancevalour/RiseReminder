@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_background_ripple"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/activity_add_place_place_name_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Title"
+        android:textColor="@color/color_subheader"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/activity_add_place_place_address_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_add_place_place_name_textView"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="address"
+        android:textColor="@color/color_subheader" />
+
+</RelativeLayout><!-- From: file:/C:/Users/ZhangY/AndroidStudioProjects/Rise/rise/src/main/res/layout/activity_add_place_grid_item.xml -->

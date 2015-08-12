@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yicheng.android.ui.staggeredgridview.StaggeredGridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_events_gridView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:column_count="2"
+    app:item_margin="8dp" />

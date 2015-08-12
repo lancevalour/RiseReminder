@@ -1,0 +1,455 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:2:1-83:12
+	xmlns:android
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [Rise:materialDesignLibrary:unspecified] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\Rise\materialDesignLibrary\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [Rise:floatingActionButton:unspecified] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\Rise\floatingActionButton\unspecified\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [Rise:staggeredGridView:unspecified] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\Rise\staggeredGridView\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:21.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appstate:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-cast:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:28:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-games:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:28:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:28:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-nearby:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-panorama:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-plus:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:28:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:13:5-71
+MERGED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:21:5-70
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:14:5-74
+MERGED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:14:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:15:22-63
+application
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:17:5-81:19
+MERGED from [Rise:materialDesignLibrary:unspecified] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\Rise\materialDesignLibrary\unspecified\AndroidManifest.xml:11:5-47
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:recyclerview-v7:21.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\AndroidManifest.xml:17:5-19:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appstate:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:20:9-41
+	android:allowBackup
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:19:9-45
+	android:theme
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:21:9-40
+activity#yicheng.android.app.rise.activity.NavigationDrawerActivity
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:22:19-68
+intent-filter#ACTIVITY_NAVIGATION_DRAWER+android.intent.category.DEFAULT
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:23:13-27:29
+action#ACTIVITY_NAVIGATION_DRAWER
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:26:27-73
+activity#yicheng.android.app.rise.activity.NewEventActivity
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:29:9-35:20
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:29:19-60
+intent-filter#ACTIVITY_NEW_EVENT+android.intent.category.DEFAULT
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:30:13-34:29
+action#ACTIVITY_NEW_EVENT
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:31:17-61
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:31:25-58
+activity#yicheng.android.app.rise.activity.NewPlaceActivity
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:36:9-42:20
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:36:19-60
+intent-filter#ACTIVITY_NEW_PLACE+android.intent.category.DEFAULT
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:37:13-41:29
+action#ACTIVITY_NEW_PLACE
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:38:17-61
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:38:25-58
+activity#yicheng.android.app.rise.activity.LoginActivity
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:43:9-49:20
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:43:19-57
+intent-filter#ACTIVITY_LOGIN+android.intent.category.DEFAULT
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:44:13-48:29
+action#ACTIVITY_LOGIN
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:45:17-57
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:45:25-54
+activity#yicheng.android.app.rise.activity.AddPlaceActivity
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:50:9-56:20
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:50:19-60
+intent-filter#ACTIVITY_ADD_PLACE+android.intent.category.DEFAULT
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:51:13-55:29
+action#ACTIVITY_ADD_PLACE
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:52:17-61
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:52:25-58
+activity#yicheng.android.app.rise.activity.SplashActivity
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:57:9-63:20
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:57:19-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:58:13-62:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:59:17-69
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:59:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:61:17-77
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:61:27-74
+receiver#yicheng.android.app.rise.receiver.EventAlarmReceiver
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:65:9-66:20
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:65:19-62
+receiver#yicheng.android.app.rise.receiver.EventIntervalAlarmReceiver
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:67:9-68:20
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:67:19-70
+service#yicheng.android.app.rise.service.EventAlarmIntentService
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:70:9-71:19
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:70:18-65
+service#yicheng.android.app.rise.service.EventIntervalAlarmIntentService
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:72:9-73:19
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:72:18-73
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:75:9-77:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:76:13-58
+	android:value
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:77:13-66
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:78:9-80:71
+	android:name
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:79:13-58
+	android:value
+		ADDED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:80:13-68
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:21.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\AndroidManifest.xml:18:9-115
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:21.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\AndroidManifest.xml:18:19-59
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:21.0.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\AndroidManifest.xml:18:60-113
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-nearby:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\AndroidManifest.xml:21:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\AndroidManifest.xml:30:19-91
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:22:5-80
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:22:5-80
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:22:5-80
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:23:5-80
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:23:5-80
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:23:5-80
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:23:22-78
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:24:5-26:33
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:24:5-26:33
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:24:5-26:33
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:24:5-26:33
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:26:8-31
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:25:8-40
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\src\main\AndroidManifest.xml:2:1-83:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
+meta-data#com.google.android.gms.wallet.api.enabled
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:25:9-27:36
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:26:13-69
+	android:value
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:27:13-33
+receiver#com.google.android.gms.wallet.EnableWalletOptimizationReceiver
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:28:9-34:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:29:13-90
+intent-filter#com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:31:13-33:29
+action#com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:32:17-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\ZhangY\AndroidStudioProjects\Rise\rise\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\AndroidManifest.xml:32:25-96

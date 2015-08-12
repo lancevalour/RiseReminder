@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.NewPlaceActivity" >
+
+    <!--
+         <item
+        android:id="@+id/menu_new_place_settings"
+        android:orderInCategory="100"
+        android:title="@string/menu_toolbar_action_settings"
+        app:showAsAction="never"/>
+    -->
+
+    <item
+        android:id="@+id/menu_new_place_add"
+        android:icon="@drawable/ic_action_add"
+        android:title="@string/menu_toolbar_action_new_place"
+        app:showAsAction="ifRoom"/>
+
+</menu>
