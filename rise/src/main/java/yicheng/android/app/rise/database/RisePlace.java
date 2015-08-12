@@ -1,8 +1,5 @@
 package yicheng.android.app.rise.database;
 
-import android.os.Parcel;
-import android.os.Parcelable;
-
 public class RisePlace  {
 	String placeName;
 	String placeAddress;

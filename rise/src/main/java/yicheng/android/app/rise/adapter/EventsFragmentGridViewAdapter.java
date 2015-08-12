@@ -1,17 +1,5 @@
 package yicheng.android.app.rise.adapter;
 
-import java.util.List;
-
-import yicheng.android.ui.materialdesignlibrary.widgets.SnackBar;
-import yicheng.android.app.rise.R;
-import yicheng.android.app.rise.activity.NavigationDrawerActivity;
-import yicheng.android.app.rise.activity.NewEventActivity;
-import yicheng.android.app.rise.database.RiseEvent;
-import yicheng.android.app.rise.fragment.EventsFragment;
-import yicheng.android.app.rise.fragment.PlacesFragment;
-import yicheng.android.app.rise.receiver.EventAlarmReceiver;
-import yicheng.android.app.rise.receiver.EventIntervalAlarmReceiver;
-import yicheng.android.app.rise.ui.utility.SwipeDimissTouchListener;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -21,12 +9,22 @@ import android.content.DialogInterface.OnDismissListener;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnLongClickListener;
 import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import java.util.List;
+
+import yicheng.android.app.rise.R;
+import yicheng.android.app.rise.activity.NavigationDrawerActivity;
+import yicheng.android.app.rise.activity.NewEventActivity;
+import yicheng.android.app.rise.database.RiseEvent;
+import yicheng.android.app.rise.fragment.EventsFragment;
+import yicheng.android.app.rise.receiver.EventAlarmReceiver;
+import yicheng.android.app.rise.receiver.EventIntervalAlarmReceiver;
+import yicheng.android.app.rise.ui.utility.SwipeDimissTouchListener;
+import yicheng.android.ui.materialdesignlibrary.widgets.SnackBar;
 
 public class EventsFragmentGridViewAdapter extends BaseAdapter {
 	private Context context;

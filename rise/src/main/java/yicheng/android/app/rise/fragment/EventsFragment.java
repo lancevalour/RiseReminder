@@ -1,14 +1,5 @@
 package yicheng.android.app.rise.fragment;
 
-import java.util.List;
-
-import yicheng.android.app.rise.R;
-import yicheng.android.app.rise.activity.NavigationDrawerActivity;
-import yicheng.android.app.rise.adapter.EventsFragmentGridViewAdapter;
-import yicheng.android.app.rise.adapter.PlacesFragmentGridViewAdapter;
-import yicheng.android.app.rise.database.RiseEvent;
-import yicheng.android.app.rise.database.SQLiteHelper;
-import yicheng.android.ui.staggeredgridview.StaggeredGridView;
 import android.app.Fragment;
 import android.graphics.Point;
 import android.os.Bundle;
@@ -17,11 +8,15 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.GridView;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
+
+import java.util.List;
+
+import yicheng.android.app.rise.R;
+import yicheng.android.app.rise.activity.NavigationDrawerActivity;
+import yicheng.android.app.rise.adapter.EventsFragmentGridViewAdapter;
+import yicheng.android.app.rise.database.RiseEvent;
+import yicheng.android.app.rise.database.SQLiteHelper;
+import yicheng.android.ui.staggeredgridview.StaggeredGridView;
 
 public class EventsFragment extends Fragment {
 

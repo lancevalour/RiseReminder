@@ -1,30 +1,27 @@
 package yicheng.android.app.rise.adapter;
 
-import java.util.Arrays;
-import java.util.List;
-
-import yicheng.android.ui.materialdesignlibrary.widgets.SnackBar;
-import yicheng.android.app.rise.R;
-import yicheng.android.app.rise.activity.NavigationDrawerActivity;
-import yicheng.android.app.rise.activity.NewEventActivity;
-import yicheng.android.app.rise.activity.NewPlaceActivity;
-import yicheng.android.app.rise.database.RisePlace;
-import yicheng.android.app.rise.fragment.PlacesFragment;
-import yicheng.android.app.rise.ui.utility.SwipeDimissTouchListener;
-import yicheng.android.ui.floatingactionbutton.FloatingActionsMenu;
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.DialogInterface.OnDismissListener;
-import android.graphics.Color;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import java.util.Arrays;
+import java.util.List;
+
+import yicheng.android.app.rise.R;
+import yicheng.android.app.rise.activity.NavigationDrawerActivity;
+import yicheng.android.app.rise.activity.NewPlaceActivity;
+import yicheng.android.app.rise.database.RisePlace;
+import yicheng.android.app.rise.fragment.PlacesFragment;
+import yicheng.android.app.rise.ui.utility.SwipeDimissTouchListener;
+import yicheng.android.ui.materialdesignlibrary.widgets.SnackBar;
 
 public class PlacesFragmentGridViewAdapter extends BaseAdapter {
 	private Context context;

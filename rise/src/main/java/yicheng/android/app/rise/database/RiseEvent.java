@@ -1,10 +1,5 @@
 package yicheng.android.app.rise.database;
 
-import java.util.ArrayList;
-
-import android.os.Parcel;
-import android.os.Parcelable;
-
 public class RiseEvent {
 	String eventStartTime;
 	String eventEndTime;

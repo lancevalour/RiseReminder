@@ -1,10 +1,10 @@
 package yicheng.android.app.rise.receiver;
 
-import yicheng.android.app.rise.service.EventAlarmIntentService;
-import yicheng.android.app.rise.service.EventIntervalAlarmIntentService;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+
+import yicheng.android.app.rise.service.EventIntervalAlarmIntentService;
 
 public class EventIntervalAlarmReceiver extends BroadcastReceiver {
 	Context context;

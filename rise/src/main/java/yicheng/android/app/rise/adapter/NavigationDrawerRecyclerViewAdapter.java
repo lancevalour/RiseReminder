@@ -1,21 +1,16 @@
 package yicheng.android.app.rise.adapter;
 
-import java.net.URI;
-
-import com.squareup.picasso.Picasso;
-
-import yicheng.android.app.rise.R;
 import android.content.Context;
-import android.net.Uri;
-import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.squareup.picasso.Picasso;
+
+import yicheng.android.app.rise.R;
 
 public class NavigationDrawerRecyclerViewAdapter extends
 		RecyclerView.Adapter<NavigationDrawerRecyclerViewAdapter.ViewHolder> {
