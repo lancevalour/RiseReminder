@@ -34,6 +34,10 @@ import com.google.android.gms.location.places.ui.PlacePicker;
 import com.google.android.gms.plus.Plus;
 import com.google.android.gms.plus.model.people.Person;
 
+import android.os.Handler;
+
+import java.util.logging.LogRecord;
+
 import yicheng.android.app.rise.R;
 import yicheng.android.app.rise.adapter.NavigationDrawerRecyclerViewAdapter;
 import yicheng.android.app.rise.database.SQLiteHelper;
@@ -276,7 +280,7 @@ public class NavigationDrawerActivity extends ActionBarActivity {
         placeSQLiteHelper = new SQLiteHelper(getBaseContext(),
                 SQLiteHelper.TABLE_PLACE);
         /*
-		 * test_floatingActionButton1 .setOnClickListener(new
+         * test_floatingActionButton1 .setOnClickListener(new
 		 * View.OnClickListener() {
 		 * 
 		 * @Override public void onClick(View v) { // TODO Auto-generated method
@@ -298,7 +302,14 @@ public class NavigationDrawerActivity extends ActionBarActivity {
                             activity_navigation_drawer_floatingActionMenu
                                     .collapse();
                         }
-                        goToNewPlaceActivity();
+
+                        Handler handler = new Handler();
+                        handler.postDelayed(new Runnable() {
+                            public void run() {
+                                goToNewPlaceActivity();
+                            }
+                        }, 100);
+
 
                     }
                 });
@@ -313,7 +324,16 @@ public class NavigationDrawerActivity extends ActionBarActivity {
                             activity_navigation_drawer_floatingActionMenu
                                     .collapse();
                         }
-                        goToNewEventActivity();
+
+                        Handler handler = new Handler();
+                        handler.postDelayed(new Runnable() {
+                            public void run() {
+                                goToNewEventActivity();
+                            }
+                        }, 100);
+
+
+                        //goToNewEventActivity();
                     }
                 });
     }

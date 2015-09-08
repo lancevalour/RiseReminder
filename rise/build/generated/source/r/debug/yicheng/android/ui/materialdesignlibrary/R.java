@@ -58,26 +58,26 @@ public final class R {
 		public static final int sprite_check = 0x7f0200a7;
 	}
 	public static final class id {
-		public static final int blue = 0x7f0c0097;
-		public static final int button_accept = 0x7f0c009d;
-		public static final int button_cancel = 0x7f0c009c;
-		public static final int buttonflat = 0x7f0c00c6;
-		public static final int contentDialog = 0x7f0c0099;
-		public static final int contentSelector = 0x7f0c0093;
-		public static final int dialog_rootView = 0x7f0c0098;
-		public static final int green = 0x7f0c0096;
-		public static final int message = 0x7f0c009b;
-		public static final int message_scrollView = 0x7f0c009a;
-		public static final int number_indicator_spinner_content = 0x7f0c00c2;
-		public static final int progressBarCircularIndetermininate = 0x7f0c00c3;
-		public static final int red = 0x7f0c0095;
-		public static final int rootSelector = 0x7f0c0092;
-		public static final int shape_bacground = 0x7f0c00c8;
-		public static final int snackbar = 0x7f0c00c5;
-		public static final int snackbar_rootView = 0x7f0c00c4;
-		public static final int text = 0x7f0c00c7;
+		public static final int blue = 0x7f0c0099;
+		public static final int button_accept = 0x7f0c009f;
+		public static final int button_cancel = 0x7f0c009e;
+		public static final int buttonflat = 0x7f0c00c8;
+		public static final int contentDialog = 0x7f0c009b;
+		public static final int contentSelector = 0x7f0c0095;
+		public static final int dialog_rootView = 0x7f0c009a;
+		public static final int green = 0x7f0c0098;
+		public static final int message = 0x7f0c009d;
+		public static final int message_scrollView = 0x7f0c009c;
+		public static final int number_indicator_spinner_content = 0x7f0c00c4;
+		public static final int progressBarCircularIndetermininate = 0x7f0c00c5;
+		public static final int red = 0x7f0c0097;
+		public static final int rootSelector = 0x7f0c0094;
+		public static final int shape_bacground = 0x7f0c00ca;
+		public static final int snackbar = 0x7f0c00c7;
+		public static final int snackbar_rootView = 0x7f0c00c6;
+		public static final int text = 0x7f0c00c9;
 		public static final int title = 0x7f0c0044;
-		public static final int viewColor = 0x7f0c0094;
+		public static final int viewColor = 0x7f0c0096;
 	}
 	public static final class layout {
 		public static final int color_selector = 0x7f03001d;
