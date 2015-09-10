@@ -191,6 +191,13 @@ public class NewEventActivity extends ActionBarActivity {
         activity_new_event_time_interval_layout.setVisibility(View.INVISIBLE);
         activity_new_event_event_time_button_layout.setVisibility(View.INVISIBLE);
 
+        RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, 0);
+        layoutParams.addRule(RelativeLayout.BELOW, R.id.activity_new_event_event_time_checkBox);
+
+        activity_new_event_time_interval_layout.setLayoutParams(layoutParams);
+        activity_new_event_event_time_button_layout.setLayoutParams(layoutParams);
+
+
         activity_new_event_event_location_add_button = (ImageButton) findViewById(R.id.activity_new_event_event_location_add_button);
         activity_new_event_event_location_add_button.setVisibility(View.GONE);
 
@@ -285,10 +292,20 @@ public class NewEventActivity extends ActionBarActivity {
                 activity_new_event_event_time_checkBox.setChecked(false);
                 activity_new_event_time_interval_layout.setVisibility(View.INVISIBLE);
                 activity_new_event_event_time_button_layout.setVisibility(View.INVISIBLE);
+                layoutParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, 0);
+                layoutParams.addRule(RelativeLayout.BELOW, R.id.activity_new_event_event_time_checkBox);
+
+                activity_new_event_time_interval_layout.setLayoutParams(layoutParams);
+                activity_new_event_event_time_button_layout.setLayoutParams(layoutParams);
             } else {
                 activity_new_event_event_time_checkBox.setChecked(true);
                 activity_new_event_time_interval_layout.setVisibility(View.VISIBLE);
                 activity_new_event_event_time_button_layout.setVisibility(View.VISIBLE);
+                layoutParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+                layoutParams.addRule(RelativeLayout.BELOW, R.id.activity_new_event_event_time_checkBox);
+
+                activity_new_event_time_interval_layout.setLayoutParams(layoutParams);
+                activity_new_event_event_time_button_layout.setLayoutParams(layoutParams);
             }
 
 
@@ -676,10 +693,24 @@ public class NewEventActivity extends ActionBarActivity {
                     activity_new_event_event_time_button_layout.setVisibility(View.VISIBLE);
                     new_event_actionbar_switch.setEnabled(true);
 
+                    RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+                    layoutParams.addRule(RelativeLayout.BELOW, R.id.activity_new_event_event_time_checkBox);
+                    RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,RelativeLayout.LayoutParams.WRAP_CONTENT );
+                    lp.addRule(RelativeLayout.BELOW, R.id.activity_new_event_event_time_button_layout);
+
+                    activity_new_event_time_interval_layout.setLayoutParams(lp);
+                    activity_new_event_event_time_button_layout.setLayoutParams(layoutParams);
+
                 } else {
                     activity_new_event_time_interval_layout.setVisibility(View.INVISIBLE);
                     activity_new_event_event_time_button_layout.setVisibility(View.INVISIBLE);
                     new_event_actionbar_switch.setEnabled(false);
+
+                    RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, 0);
+                    layoutParams.addRule(RelativeLayout.BELOW, R.id.activity_new_event_event_time_checkBox);
+
+                    activity_new_event_time_interval_layout.setLayoutParams(layoutParams);
+                    activity_new_event_event_time_button_layout.setLayoutParams(layoutParams);
                 }
             }
         });
@@ -853,7 +884,7 @@ public class NewEventActivity extends ActionBarActivity {
 																						// last
 					new_event_actionbar_switch.setThumbDrawable(thumbStates);*/
         /*	ColorStateList buttonStates = new ColorStateList(new int[][] {
-					new int[] { android.R.attr.state_checked },
+                    new int[] { android.R.attr.state_checked },
 					new int[] { -android.R.attr.state_enabled }, new int[] {} },
 					new int[] { getResources().getColor(R.color.theme_accent),
 							getResources().getColor(R.color.theme_accent),
@@ -1048,7 +1079,7 @@ public class NewEventActivity extends ActionBarActivity {
             int interval = 60000;
 
 			/*	alarmManager.setRepeating(AlarmManager.RTC_WAKEUP,
-						System.currentTimeMillis(), interval, pendingIntent);*/
+                        System.currentTimeMillis(), interval, pendingIntent);*/
 
             String[] startTime = eventStartTime.split(":");
 

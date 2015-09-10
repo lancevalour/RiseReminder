@@ -157,7 +157,8 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/activity_new_event_event_time_textView"
                     android:fontFamily="sans-serif-medium"
-                    android:text="Set Time" />
+                    android:text="Set Time"
+                    android:checked="false" />
 
                 <LinearLayout
                     android:id="@+id/activity_new_event_event_time_button_layout"

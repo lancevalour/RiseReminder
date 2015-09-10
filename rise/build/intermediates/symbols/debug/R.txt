@@ -769,7 +769,7 @@ int id list_item 0x7f0c0042
 int id match_parent 0x7f0c0033
 int id media_route_control_frame 0x7f0c00b3
 int id media_route_list 0x7f0c00af
-int id menu_navigation_drawer_settings 0x7f0c00cb
+int id menu_navigation_drawer_search 0x7f0c00cb
 int id menu_new_event_add 0x7f0c00cc
 int id menu_new_event_switch 0x7f0c00cd
 int id menu_new_place_add 0x7f0c00ce

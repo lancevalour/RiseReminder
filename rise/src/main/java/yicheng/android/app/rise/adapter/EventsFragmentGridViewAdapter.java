@@ -127,9 +127,6 @@ public class EventsFragmentGridViewAdapter extends BaseAdapter {
         if (eventsList.get(position).getEventStartTime().trim().equals("0")) {
             RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, 0);
 
-            RelativeLayout.LayoutParams p = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
-                    ViewGroup.LayoutParams.WRAP_CONTENT);
-
             layoutParams.addRule(RelativeLayout.BELOW, R.id.fragment_events_event_name_textView);
 
             viewHolder.fragment_events_event_time_layout.setLayoutParams(layoutParams);

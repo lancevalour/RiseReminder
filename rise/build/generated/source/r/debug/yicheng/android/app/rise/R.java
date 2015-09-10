@@ -2399,7 +2399,7 @@ containing a value of this type.
         public static final int match_parent=0x7f0c0033;
         public static final int media_route_control_frame=0x7f0c00b3;
         public static final int media_route_list=0x7f0c00af;
-        public static final int menu_navigation_drawer_settings=0x7f0c00cb;
+        public static final int menu_navigation_drawer_search=0x7f0c00cb;
         public static final int menu_new_event_add=0x7f0c00cc;
         public static final int menu_new_event_switch=0x7f0c00cd;
         public static final int menu_new_place_add=0x7f0c00ce;
